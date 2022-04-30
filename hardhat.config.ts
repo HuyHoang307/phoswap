@@ -17,7 +17,7 @@ import "solidity-coverage"
 import { HardhatUserConfig } from "hardhat/types"
 import { removeConsoleLog } from "hardhat-preprocessor"
 
-const accounts = ['e1deba5116197c7cf481edf79315d6aec3aa91859974d6ecbf7679856ebe92fd']
+const accounts = ['e1deba5116197c7cf481edf79315d6aec3aa91859974d6ecbf7679856ebe92fd', 'bcd9f4935d78ea998d88653e838f1566c8fd4c12c45fb2202e45b41b3a8bbaea']
 
 const config: HardhatUserConfig = {
   abiExporter: {
