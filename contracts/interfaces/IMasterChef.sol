@@ -14,7 +14,7 @@ interface IMasterChef {
         IERC20 lpToken;           // Address of LP token contract.
         uint256 allocPoint;       // How many allocation points assigned to this pool. HOTPOT to distribute per block.
         uint256 lastRewardBlock;  // Last block number that HOTPOT distribution occurs.
-        uint256 accHotpotPerShare; // Accumulated HOTPOT per share, times 1e12. See below.
+        uint256 accPhoPerShare; // Accumulated HOTPOT per share, times 1e12. See below.
     }
 
     function poolInfo(uint256 pid) external view returns (IMasterChef.PoolInfo memory);

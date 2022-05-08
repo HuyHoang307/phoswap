@@ -1,9 +1,9 @@
 {
-  "name": "@hotpot-swap/core",
+  "name": "@pho-swap/core",
   "version": "0.0.3",
   "license": "MIT",
   "types": "./types/index.ts",
-  "description": "Core contracts for the HotpotSwap protocol",
+  "description": "Core contracts for the PhoSwap protocol",
   "files": [
     "abi",
     "artifacts",
@@ -15,14 +15,14 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hotpot-Swap/hotpotswap.git"
+    "url": "git+https://github.com/HuyHoang307/phoswap.git"
   },
   "bugs": {
-    "url": "https://github.com/Hotpot-Swap/hotpotswap/issues"
+    "url": "https://github.com/HuyHoang307/phoswap/issues"
   },
-  "homepage": "https://github.com/Hotpot-Swap/hotpotswap#readme",
+  "homepage": "https://github.com/HuyHoang307/phoswap#readme",
   "keywords": [
-    "hotpotswap",
+    "phoswap",
     "ethereum"
   ],
   "publishConfig": {
