@@ -9,7 +9,7 @@ interface IMiniChefV2 {
     }
 
     struct PoolInfo {
-        uint128 accHotpotPerShare;
+        uint128 accPhoPerShare;
         uint64 lastRewardTime;
         uint64 allocPoint;
     }
